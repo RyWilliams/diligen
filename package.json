@@ -1,0 +1,20 @@
+{
+  "name": "koa-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx babel-node index.js"
+  },
+  "author": "Ryan Williams",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.7.0",
+    "koa-mount": "^4.0.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
