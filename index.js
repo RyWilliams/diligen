@@ -32,4 +32,4 @@ app.use(async (ctx) => {
   ctx.body = readFileSync(path.resolve(__dirname, 'templates/404.html'), 'utf8');
 });
 
-app.listen(3000);
+app.listen(process.env.PORT || 3000);
